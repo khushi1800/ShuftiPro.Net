@@ -15,5 +15,8 @@ namespace ShuftiPro.Contracts.Abstractions
 
         [JsonProperty("consent")]
         string[] Consent { get; set; }
+        
+        [JsonProperty("background_checks")]
+        string[] BackgroundChecks { get; set; }
     }
 }
